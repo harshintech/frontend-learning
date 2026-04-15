@@ -1,6 +1,19 @@
-# 🎨 Frontend Learning 🚀
+# 📘 Frontend Learning Journey
 
-This repository contains my structured journey of learning frontend development — from fundamentals to modern frameworks and real-world projects.
+This repository documents my **complete frontend development journey** — from basics to advanced concepts.
+
+It includes:
+
+- 📚 Learning notes and practice code
+- 🧪 Experiments while learning new concepts
+- 🛠️ Early versions of projects built during learning
+
+> ⚠️ Note: This repository focuses on the **learning process**.
+> For **refined and production-ready projects**, check my dedicated project repositories:
+
+- 🚀 JavaScript Projects
+- ⚛️ React Projects
+- ▲ Next.js Projects
 
 ---
 
