@@ -1,0 +1,114 @@
+div{
+    height: 100px;
+    width:200px;
+    background-color: pink;
+    
+    
+    /* border width and style  apply both at same time means without styel botder width not apply think yourself 
+   
+     border-width: 5px;
+    border-style: dotted; 
+     border-color:brown; */
+
+/* shout cut  */
+    border:3px solid black;
+    
+    /* margin-top:50px; */
+   /* margin: 25px;;*/
+}
+
+h1{
+    width: 300px;
+    background-color: aquamarine;
+    text-align:center;
+}
+
+#div1{
+    height: 100px;
+    width:100px;
+    background-color: #7fffd4;
+    border-radius: 10px;
+
+    padding-left:25px;
+}
+
+#div2{
+    height: 100px;
+    width:100px;
+    background-color: aquamarine;
+    /* border-radius: 50%; */
+
+    /* padding-left:25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+     */
+
+     padding:25px;
+     /* padding:25px 25px 25px 25px; */
+
+    
+}
+
+#tflight{
+    width : 100px;
+    height: 280px;
+    background-color: gray;
+}
+
+#red{
+
+    background-color: red;
+    width:50px;
+    height: 50px;
+    border-radius : 50%;
+    margin:25px;
+    
+}
+
+#yellow{
+
+    background-color: yellow;
+    width:50px;
+    height: 50px;
+    border-radius : 50%;
+    margin:25px;
+}
+
+#green{
+
+    background-color: green;
+    width:50px;
+    height: 50px;
+    margin:25px;
+    border-radius : 50%;
+}
+
+#div4{
+    display:inline;
+
+}
+
+button{
+    display:block;
+}
+
+.divall{
+    width : 100px;
+    height : 100px;
+    margin:25px;
+    padding: 25px;
+    /* display : inline; */
+    display:inline-block;
+}
+
+#divnone{
+    display: none;
+    /* visibility: hidden; */
+}
+
+#square{
+    width:100px;
+    height: 100px;
+    background-color: rgb(24, 175, 85,0.6); /*last parameter for opacity*/
+}

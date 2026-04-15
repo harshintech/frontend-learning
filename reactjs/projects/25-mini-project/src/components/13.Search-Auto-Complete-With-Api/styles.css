@@ -1,0 +1,50 @@
+.search-autocomplete-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 128, 122);
+  /* justify-content: center; */
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.search-box {
+  margin-top: 200px;
+  flex-direction: column;
+  background-color: rgb(0, 128, 122);
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.search-autocomplete-container h1 {
+  top: -25px;
+}
+
+.search-autocomplete-container input {
+  width: 200px;
+  height: 30px;
+}
+
+.search-autocomplete-container li {
+  list-style: none;
+}
+
+.search-autocomplete-container p {
+  margin-bottom: 20px;
+}
+
+.filter-list-data {
+  position: inherit;
+  top: 0;
+}
+
+.search-box ul {
+  padding-top: 15px;
+}
+
+.qr-code-value {
+  height: 200px;
+}

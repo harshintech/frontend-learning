@@ -1,0 +1,30 @@
+.github-profile-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self:center;
+    align-items: center;
+}
+
+.github-profile-container h1 {
+  background: none;
+  top:-25px;
+}
+
+.input-wrapper input{
+    border: none;
+    outline: none;
+    background-color: rgb(205, 206, 205);
+    padding: 5px 20px;
+}
+
+.input-wrapper button{
+    border: none;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    color:white;
+}

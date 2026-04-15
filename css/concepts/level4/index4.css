@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+    border:2px solid black;
+
+}
+
+#container{
+    width: 400px;
+    height: 300px;
+    /*below all is flex property */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*flex-wrap: wrap;
+    align-content: flex;*/
+}
+
+#div1{
+    
+    background-color: aquamarine;
+
+}
+
+#div2{
+    
+    background-color: pink;
+    flex-shrink:2;
+    
+}
+#div3{
+    
+    background-color: rgb(31, 180, 244);
+    
+}
+#div4{
+    
+    background-color: rgb(214, 31, 217);
+    
+}
+
+#div5{
+    
+    background-color: rgb(237, 97, 21);
+    align-self:flex-end;
+
+    /* align-self is more powerfull then align-item remamber this is most important part;*/
+    
+}

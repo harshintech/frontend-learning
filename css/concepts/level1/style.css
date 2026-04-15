@@ -1,0 +1,111 @@
+/*some tips
+ website : codepen for learn css
+website : font awesome for icon;
+most important tips website :::: mdn css all element here
+  shoutcut for comment ctrl + /;
+1.coolors is website provide you colors idea - call as colorpalate*/
+
+
+
+
+/* all element have static position default you change in relative so you can apply z index and top right bottom left  */
+
+h2{
+    color:aquamarine;
+}
+
+p{
+    color:blueviolet;
+}
+
+button{
+    background-color: blueviolet;
+    color:springgreen;
+}
+
+body {
+    background-color:rgb(12, 33, 34); /*0-255*/
+}
+
+h3 {
+    color: #ff0000; /* 0 -15 decimal here and order is 0-9 and after 9 a,b,c,d,e,f total 16 so 00-ff ; */
+}
+
+ /*  
+ * {
+    color : red;
+}
+
+this is universal selector all the element is red after this command use
+*/ 
+
+#headingOne {
+    color: beige ;
+}
+
+.myClass {
+    color:palevioletred;
+}
+
+/* h1,h2,h3{
+    color: aqua;
+} selector work with   ,  also*/
+
+#paragraph1 {
+    text-align: right;   
+    /*start , end is command according to language */
+    font-family:cursive;
+}
+
+#heelo {
+    color:aquamarine;
+    text-align : center;
+    text-decoration:blue wavy underline;
+}
+
+#s1{
+    color:white;
+    font-weight:normal;
+
+}
+
+#s2{
+    color:white;
+    font-weight : bolder; /*100 - 900 value*/
+
+}
+
+#s3{
+    color:white;
+    font-weight : 100;
+
+}
+#s4{
+    color:white;
+    font-weight: 900;
+    font-family:monospace
+
+}
+
+#p1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/*all browser not have all font then apply sencond fond above and second not available then set third and continue;*/
+
+    font-size:23px;
+
+
+}
+
+
+#p2{
+    line-height: 9px;
+}
+
+#p3{
+    text-transform :uppercase;
+    line-height : 38px;
+}
+
+#outer{
+    font-size: 25px; /*when you apply property for parent class so automaticly apply on child class; */
+}

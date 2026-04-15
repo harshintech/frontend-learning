@@ -1,0 +1,48 @@
+/*
+
+units in css
+
+two type of unit 
+1.absolute--> fixed for all device or websiter
+    px,cm,mm
+
+
+ 2.relative--> change according to websiter or device
+    %,em,rem
+*/
+
+#div1{
+    height: 100px;
+    width:200px;
+    background-color: green;
+    font-size:10px;
+}
+
+#div2{
+    height: 50px;
+    width:30%;/*30% according to div1 100px */
+    background-color: yellow;
+    margin: 10%;
+    font-size: 2em; /* 2em  === 10px * 2  (10px already seted)font size of parent box*/
+
+    width: 5em; /* 2em = 20px so width = 20px*5=  100px it depent on child font size not parent*/
+}
+
+
+
+#div3{
+    height: 100px;
+    width:200px;
+    background-color: green;
+    font-size:10px;
+}
+
+#div4{
+    height: 50px;
+    width:30%;/*30% according to div1 100px */
+    background-color: yellow;
+    margin: 10%;
+    font-size: 2em; 
+
+    width: 5rem; /* rem depent on html means outer command depend now px is 80px set*/ 
+}

@@ -1,0 +1,1 @@
+console.log("Hello I am Harsh"); // semicolumn is not neccessary in js

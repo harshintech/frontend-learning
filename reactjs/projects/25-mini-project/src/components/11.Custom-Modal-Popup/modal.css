@@ -1,0 +1,100 @@
+.modal {
+  position: fixed;
+  z-index: 1;
+  padding-top: 150px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000000;
+  background-color: transparent;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  /* border: 1px solid red; */
+  width: 80%;
+  animation-name: animateModal;
+  animation-duration: 0.5s;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.close-modal-icon {
+  cursor: pointer;
+  font-size: 40px;
+  float: right;
+  font-weight: bold;
+}
+
+.modalheader {
+  padding: 4px 16px;
+  background-color: #c300ff;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modalbody {
+  padding: 2px 16px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.modalfooter {
+  padding: 2px 16px;
+  background-color: #c300ff;
+  color: #000000;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes animateModal {
+  from {
+    top: -200px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.modal-button{
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  color:rgb(0, 0, 0);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.modal-final-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+.modal-final-container h1{
+  font-family: sans-serif;
+  position: relative;
+  top:-60px;
+
+}

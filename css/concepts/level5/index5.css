@@ -1,0 +1,43 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border : 2px solid black;
+    /* transition-property:all;
+    transition-duration:2s; */
+
+    transition: all 2s ease-in 1s;
+
+
+}
+
+div:hover{
+    background-color: grey;
+    color: white;
+}
+
+div:active{
+    background-color: pink;/*hold mouse key*/
+}
+
+#div2:hover{
+    background-color: grey;
+    color: white;
+    transition-timing-function: steps(5);
+}
+
+#div2:active{
+    background-color: pink;
+}
+
+#div3:hover{
+    background-color: black;
+    color: white;
+    /* transition-timing-function: steps(5); */
+    transition-duration: 0s;
+    transition-delay:1s;
+}
+
+#div3:active{
+    background-color: pink;
+}

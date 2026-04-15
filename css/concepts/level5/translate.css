@@ -1,0 +1,65 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border : 2px solid black;
+    /* transition-property:all;
+    transition-duration:2s; */
+
+    transition: all 2s ease-in 0.1s;
+
+
+}
+
+div:hover{
+    background-color: grey;
+    color: white;
+    transform: translateX(50px);
+
+
+    
+}
+
+div:active{
+    background-color: pink;/*hold mouse key*/
+}
+
+#div2:hover{
+    background-color: grey;
+    color: white;
+    transition-timing-function: steps(5);
+    transform: translateY(-50px);
+}
+
+#div2:active{
+    background-color: pink;
+}
+
+#div3:hover{
+    background-color: black;
+    color: white;
+    /* transition-timing-function: steps(5); */
+    transition-duration: 0s;
+    transition-delay:1s;
+    transform: translate(50px,50px);
+}
+
+#div3:active{
+    background-color: pink;
+}
+
+#div4:hover{
+    background-color: black;
+    color: white;
+    /* transition-timing-function: steps(5); */
+    /* transition-duration: 0s;
+    transition-delay:1s;
+    transform: translate(50px,50px); */
+
+    transform: skew(45deg);
+}
+
+#div4:active{
+    background-color: pink;
+}
+

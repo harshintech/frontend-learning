@@ -1,0 +1,50 @@
+div{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display:inline-block;
+}
+
+#div1{
+    position:static;
+    /* In static not work top,bottom,left ...... etc and also not work z-index;*/
+    
+
+}
+
+#div2{
+    background-color: rgb(247, 84, 84);
+    position:relative;
+    top : 20px;
+    left: 30px ;
+    z-index: 1; /* this z axis mean overlap piority num 
+    so div2 is overlap all element */
+}
+
+#div3{
+
+    background-color: aqua;
+    position:absolute;
+    top:10px;
+    left:20px; 
+    /* absoulte change with body means parent class ;  */
+
+}
+
+#div4{
+    background-color: pink;
+    position:fixed;/* fixed change with browser pager*/
+    right : 10px;
+    bottom:20px;
+    /*backgound image play ground */
+    background-image: url("boatimg.jpg");
+    background-size: cover; /* also you have auto,cover and contain ;;;; by default is auto*/
+    
+}
+
+#div5{
+    background-color: rgb(78, 63, 240);
+    position:sticky;/* fixed change with browser pager*/
+    top:0px;
+}

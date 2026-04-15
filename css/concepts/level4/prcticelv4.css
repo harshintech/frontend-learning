@@ -1,0 +1,30 @@
+.navbar{
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+a{
+    color: black;
+    text-decoration : none;
+}
+
+li{
+    list-style-type:none;
+}
+
+#outer{
+    background-color: black;
+    width:300px;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner{
+    background-color: burlywood;
+    width:100px;
+    height:100px;
+}

@@ -1,0 +1,51 @@
+.ps-box{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    color:white;
+}
+
+.ps-name{
+    color:white;
+}
+
+.ps-input{
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    outline: none;
+    padding: 13px;
+    border-radius: 8px;
+    flex-wrap: wrap;
+}
+
+.ps-box button{
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    outline: none;
+    padding: 13px;
+    border-radius: 8px;
+}
+
+.ps-box div{
+   width: 90vw;
+   /* background-color: red; */
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   padding:12px;
+   border: 2px solid white;
+}
+
+strong {
+  word-wrap: break-word; /* Or use overflow-wrap: break-word; */
+  word-break: break-word;
+}

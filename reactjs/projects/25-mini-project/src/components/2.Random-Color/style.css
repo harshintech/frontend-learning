@@ -1,0 +1,30 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer {
+  
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  gap:20px
+  /* margin-top: 90px; */
+}
+
+h1{
+    width: 200px;
+    justify-self: center;
+    background:rgb(178, 55, 250);
+    padding:10px 20px;
+    /* margin-bottom: 250px; */
+    color: #242424;
+    font-size: 28px;
+    position:relative;
+    top:35px;
+   
+}

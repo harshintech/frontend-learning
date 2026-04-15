@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        
+        .container{
+            border : 2px solid black;
+            height: 600px;
+            display: flex;
+            /* justify-content:center; */
+            align-items: center;
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+            align-content: center;
+            align-content: flex-start;
+            flex-flow:row wrap;
+            /* gap:30px; */
+            row-gap: 30px;
+            column-gap: 10px;
+            /* gap :30px 20px; */
+
+        }
+
+        .box{
+            /* margin: 5px; */
+            border: 2px solid black;
+            width: 80px;
+            height: 80px;
+            background-color: blueviolet;
+           
+
+        }
+
+
+        .order-1{
+            order:1;
+        }
+
+        .order-2{
+            order:2;
+        }
+
+        .order-3{
+            order:3;
+        }
+
+        .img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box order-2">4</div>
+        <div class="box order-1">5</div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box order-2">99</div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        
+        
+    </div>
+
+    <br><br><br><br><br><br>
+    <div class="img"><img src="flex_box.png" width="500vw"></div>
+
+    
+</body>
+</html>

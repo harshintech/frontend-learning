@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c2c2c2;
+}
+
+.App {
+  text-align: center;
+  margin: 50px auto 0px;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 20px;
+  height: 470px;
+  padding: 20px 15px;
+  background: rgb(0, 0, 0);
+  box-shadow: rgba(46, 46, 46, 0.2) 0px 7px 29px 0px;
+}
+
+.search-engine {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.search-engine input {
+  width: 70%;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 2px 15px;
+  font-size: 16px;
+  outline: none;
+  background-color: #303030;
+  color: #979797;
+
+  &:focus {
+    background-color: white;
+    color: black;
+  }
+}
+
+.search-engine button {
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  /* border: 1px solid white; */
+  font-size: 12px;
+  outline: none;
+  cursor: pointer;
+  padding: 0px 10px;
+  width: 150px;
+  height: 35px;
+  font-weight: bolder;
+}
+
+.city-name {
+  margin-bottom: 10px;
+}
+
+.loading {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.date {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.temp {
+  font-size: 64px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.description {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.column {
+  display: flex;
+  align-items: center;
+  line-height: 1px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: -10px;
+}
+
+.info p {
+  margin: 2px 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+.main{
+    position: relative;
+    height: 100%;
+}
+
+.author{
+    position:absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+@media (max-width: 400px) {
+    .author p{
+        font-size: 12px;
+    }
+
+    .info p{
+        font-size: 14px;
+    }
+}

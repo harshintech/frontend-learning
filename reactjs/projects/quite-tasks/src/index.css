@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+
+  /* word-spacing: px ; */
+}
+
+body {
+  background-color: #f4f4f5;
+}
+
+.header {
+  background: black;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/flow.jpg");
+  background-blend-mode: darken;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  letter-spacing: 2px;
+}
+img {
+  height: 150px;
+}
+.header > h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.header > p {
+  margin-bottom: 6px;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 0 20px;
+}
+
+.task-header input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border: 1px solid green;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  padding-left: 12px;
+}
+
+.task-header button {
+  background-color: rgb(196, 247, 196);
+  padding: 2px 15px;
+  outline: none;
+  border: 1px solid transparent;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  height: 30px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.task-header button:active {
+  background-color: rgb(136, 255, 136);
+  cursor: pointer;
+  /* outline: 1px solid green; */
+  border: 1px solid green;
+  /* height: 29px; */
+  box-sizing: border-box;
+}
+
+.content-box {
+  /* border: 2px solid black; */
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 0 10px;
+  height: 500px;
+}
+
+.list-box {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 12px;
+}
+
+.list-item {
+  margin-top: 9px;
+  padding: 10px;
+  width: 800px;
+  /* border: 0.3px solid rgb(184, 184, 184); */
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-container .btncheck {
+  border: 2px solid black;
+  padding: 5px;
+  width: 25px;
+  height: 25px;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btncheckOn {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 5px;
+  width: 25px;
+  height: 25px;
+  filter: invert(1);
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background: black;
+  color: white;
+  padding: 8px 13px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+
+.todo-title {
+  padding-left: 12px;
+}
+
+.btnclear {
+  margin: 0 auto;
+  margin-top: 12px;
+  width: 150px;
+  background-color: red;
+}
+
+.onChecked {
+  text-decoration: line-through;
+}
+
+.offChecked {
+  text-decoration: none;
+}
+
+.add-task-btn {
+  width: 80px;
+}
+
+@media screen and (max-width: 600px) {
+  .task-header {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .content-box {
+    margin-top: 15px;
+  }
+
+  .input-box {
+    padding-top: 22px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-box input {
+    width: 200px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+
+  .list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 93vw;
+    justify-self: center;
+  }
+
+  .btn-container {
+    width: 100%;
+    display: flex;
+    /* justify-content: end; */
+    justify-content: space-around;
+  }
+}

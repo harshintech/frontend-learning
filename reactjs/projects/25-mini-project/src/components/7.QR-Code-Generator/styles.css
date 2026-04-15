@@ -1,0 +1,42 @@
+.qr-container{
+    width: 100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    
+}
+
+.qr-container h4{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 52px;
+    margin-bottom: -20px;
+}
+
+.qr-container input{
+    width: 150px;
+    height: 20px;
+    padding: 2px 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+
+}
+
+.qr-container button{
+    width: 150px;
+    height: 27px;
+    padding: 2px 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    background-color: blueviolet;
+    outline:none;
+    border:none;
+    color:#fff;
+}
+
+#qr-code-value{
+    height: 200px;
+}

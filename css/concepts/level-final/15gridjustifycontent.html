@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border:2px solid black;
+            display: grid;
+            width: 80vw;
+          
+            /* grid-template-columns: 120px 100px;120 px is first colum grid and 100px is second colum grid */
+            /* grid-template-rows: 120px 120px 100px ; */
+            /* grid-template-rows:[pahela] 120px [dusra]120px l[t]100px ; */
+
+            /* grid-template-columns:1fr 1fr 1fr; */
+            grid-template-columns:1fr 2fr 1fr;
+            /* gap:34px; */
+            row-gap: 10px;
+            column-gap: 34px;
+
+
+
+        }
+
+        .box{
+            border:2px solid red;
+            height: 55px;
+            /* width: 55px; */
+
+        }
+
+        .boxs{
+            border:2px solid red;
+            height: 55px;
+            width: 55px;
+
+        }
+
+
+        .container2{
+            border:2px solid black;
+            display: grid;
+            width: 80vw;
+            
+            height: 50vh;;
+            /* grid-template-columns: 120px 100px;120 px is first colum grid and 100px is second colum grid */
+            /* grid-template-rows: 120px 120px 100px ; */
+            /* grid-template-rows:[pahela] 120px [dusra]120px l[t]100px ; */
+
+            /* grid-template-columns:1fr 1fr 1fr; */
+            grid-template-columns:1fr 2fr 1fr;
+            /* grid-template-columns:repeat(3,1fr); shortcut or for many columns */
+             /* grid-template-columns:repeat(3,minmax(100px,1fr);*/ 
+              grid-template-columns:repeat(3,80px); 
+            
+            
+            /* gap:34px; */
+            row-gap: 10px;
+            column-gap: 34px;
+
+
+            justify-items: center;/* here use justify item and justify content is mange for all over grid container not inside grid elemet*/
+            align-items: center;
+
+
+            justify-content: center;  /*comment please and checkout diffternt btw justify item and justify content */
+
+
+        }
+
+        /* .it2{
+            justify-self: end;
+            align-self: flex-start;
+        } */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box item-1">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box item-4">4</div>
+        <div class="box">5</div>
+    </div>
+<br><br><br><br><br><br>
+    <div class="container2">
+        <div class="boxs item-11">1</div>
+        <div class="boxs it2">2</div>
+        <div class="boxs">3</div>
+        <div class="boxs item-44">4</div>
+        <div class="boxs">5</div>
+    </div>
+</body>
+</html>

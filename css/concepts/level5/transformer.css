@@ -1,0 +1,42 @@
+div{
+    width: 100px;
+    height:100px;
+    background-color: aquamarine;
+    border : 2px solid black;
+    
+}
+#div1{
+    position: absolute;
+    top:300px;
+    right:100px;
+    /* transform: rotate(45deg); */
+    rotate: 45deg;
+  
+}
+
+#div2{
+    position:relative;
+    left:200px;
+    
+    transform: rotateX(45deg);
+    transform: rotateY(45deg);
+    transform: rotateZ(45deg);
+
+    /*scale you also apply on div:hover so let do it*/
+    transform: scale(1);/*only x and y both*/
+    transform: scale(1,2);/*x and y is seprate*/
+    /* also apply this for separate*
+
+    transform: scaleX(1);
+    transform: scaleY(2);
+    */
+
+
+}
+
+#div3{
+    position:relative;
+    left:10px;
+    
+    rotate: y 45deg;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border:2px solid black;
+            display: grid;
+            grid-template-columns: 120px 100px;/*120 px is first colum grid and 100px is second colum grid*/
+            grid-template-rows: 120px 120px 100px ;
+            grid-template-rows:[pahela] 120px [dusra]120px l[t]100px ;
+
+
+        }
+
+        .box{
+            border:2px solid red;
+            height: 55px;
+            width: 55px;
+
+        }
+
+        .item-4{
+            grid-row:1/2;
+
+             /* or you can do */
+            /* grid-row-start: 1;
+            grid-row-end: 2; */
+
+
+            grid-column:1/2;
+            
+           
+        }
+
+        /* .item-4{
+            grid-row:2/3;
+            grid-column:2/3;
+        } */
+
+        .item-1{
+            grid-row:1/2;
+            grid-column:1/2;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box item-1">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box item-4">4</div>
+        <div class="box">5</div>
+    </div>
+</body>
+</html>

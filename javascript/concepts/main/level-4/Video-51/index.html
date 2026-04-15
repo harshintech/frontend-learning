@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: rgba(0, 0, 0, 0.971);
+        }
+
+        .box {
+            border: 2px solid black;
+            width: 125px;
+            height: 125px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 16px;
+            background-color: rgb(28, 28, 28);
+            color: white;
+            font-size: 50px;
+
+        }
+
+        .box1 {
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            /* background-color: rgb(28, 28, 28); */
+            color: white;
+
+        }
+
+        .main {
+
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+
+
+        }
+
+        .con1 {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            /* margin-top: 20px; */
+        }
+
+        .con2 {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .con2>h1 {
+            font-size: 70px;
+        }
+
+        h1 {
+            color: white;
+            letter-spacing: 2px;
+
+
+        }
+
+        .headd {
+            font-size: 60px;
+            /* margin-bottom: -20px; */
+            animation: fadee 1s linear 0s infinite alternate;
+
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        .clock {
+            border: 2px solid black;
+            width: 492.31px;
+            height: 129px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top-left-radius: 16px;
+            border-top-right-radius: 16px;
+            background-color: rgb(28, 28, 28);
+            color: white;
+            font-size: 50px;
+            
+        }
+
+       
+
+        @keyframes fadee {
+            from {
+                color: white;
+            }
+
+            to {
+                color: rgba(255, 255, 255, 0);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main"">
+        <div class="clock">
+        <h1 class="headd">Clock</h1>
+    </div>
+
+    <div class="con2">
+        <div class="box1">
+            <h2>Text</h2>
+        </div>
+        <h1> - </h1>
+        <div class="box1">
+            <h2>Text</h2>
+        </div>
+        <h1> - </h1>
+        <div class="box1">
+            <h2>Text</h2>
+        </div>
+    </div>
+
+    <div class=" con1">
+        <div class="box">
+            <h1 class="ani">Text</h1>
+        </div>
+        <h1>:</h1>
+        <div class="box">
+            <h1>Text</h1>
+        </div>
+        <h1>:</h1>
+        <div class="box">
+            <h1>Text</h1>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
