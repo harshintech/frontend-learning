@@ -4,6 +4,14 @@ This repository contains my structured journey of learning frontend development 
 
 ---
 
+## 📝 Note
+
+This repository was recently **restructured and cleaned** to improve organization and readability.
+
+Some previous commit history was replaced during this process, but all projects and code are maintained and continuously improved.
+
+---
+
 ## 📈 My Learning Journey
 
 - Started with HTML & CSS basics
