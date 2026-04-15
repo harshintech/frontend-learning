@@ -1,6 +1,6 @@
 # 🎨 Frontend Learning 🚀
 
-This repository contains my structured journey of learning frontend development — from fundamentals to modern frameworks.
+This repository contains my structured journey of learning frontend development — from fundamentals to modern frameworks and real-world projects.
 
 ---
 
@@ -9,50 +9,79 @@ This repository contains my structured journey of learning frontend development 
 I followed a step-by-step path to build strong frontend fundamentals:
 
 1. 🌐 **HTML**
-   - Structure of web pages
-   - Semantic elements
+
+   * Structure of web pages
+   * Semantic elements
 
 2. 🎨 **CSS**
-   - Layouts (Flexbox, Grid)
-   - Responsive design
 
-3. 🧩 **SCSS**
-   - Variables, Nesting, Mixins
-   - Scalable styling
+   * Flexbox & Grid
+   * Responsive design
 
-4. ⚡ **JavaScript**
-   - Core concepts (closures, promises)
-   - DOM manipulation
+3. 🅱️ **Bootstrap**
 
-5. 💨 **Tailwind CSS**
-   - Utility-first styling
-   - Rapid UI development
+   * Pre-built UI components
+   * Rapid layout building
 
-6. ⚛ **React.js**
-   - Components & Hooks
-   - State management
-   - Mini projects
+4. 🧩 **SCSS**
 
-7. ▲ **Next.js**
-   - Routing & SSR basics
-   - Production-ready apps
+   * Variables, Nesting, Mixins
+   * Scalable styling
 
-8. 🟦 **TypeScript**
-   - Type safety
-   - Better code quality in React
+5. ⚡ **JavaScript**
+
+   * Core concepts (closures, promises)
+   * DOM manipulation
+
+6. 💨 **Tailwind CSS**
+
+   * Utility-first styling
+   * Fast UI development
+
+7. ⚛ **React.js**
+
+   * Components & Hooks
+   * State management
+   * Mini projects
+
+8. ▲ **Next.js**
+
+   * Routing & SSR basics
+   * Production-ready apps
+
+9. 🟦 **TypeScript**
+
+   * Type safety
+   * Better scalability in React
 
 ---
 
 ## 📁 Repository Structure
 
-- `html/` → fundamentals
-- `css/` → layouts and styling
-- `styling/scss/` → advanced styling with SCSS
-- `javascript/` → core JS and DOM
-- `styling/tailwind/` → Tailwind practice
-- `react/` → components and projects
-- `nextjs/` → framework basics
-- `typescript/` → type-safe development
+* `html/` → fundamentals
+* `css/` → layouts and styling
+* `javascript/` → core JS and DOM
+* `react/` → components and projects
+* `nextjs/` → framework basics
+* `typescript/` → type-safe development
+* `styling/`
+
+  * `bootstrap/` → Bootstrap practice
+  * `scss/` → advanced styling
+  * `tailwind/` → Tailwind CSS
+
+---
+
+## 🚀 Frontend Projects
+
+This repository also includes hands-on projects built during learning:
+
+* Responsive UI components
+* Landing pages
+* React mini-projects
+* Tailwind & Bootstrap UI builds
+
+👉 Each project is organized inside its respective technology folder.
 
 ---
 
